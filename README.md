@@ -69,9 +69,9 @@ return
 }
 
 for record in records {
-let rollNumber = record["roll_number"] as! Int
-let name = record["name"] as! String
-print("Roll number : \(rollNumber), name is \(name)")
+  let rollNumber = record["roll_number"] as! Int
+  let name = record["name"] as! String
+  print("Roll number : \(rollNumber), name is \(name)")
 }
 ````
 
