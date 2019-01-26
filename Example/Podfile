@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SDDatabase_Example' do
+  pod 'SDDatabase', :path => '../'
+
+  target 'SDDatabase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
