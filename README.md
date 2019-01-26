@@ -1,4 +1,7 @@
 # SDDatabase
+
+![sddatabaseicon](/sddatabase_small.png)
+
 [![Version](https://img.shields.io/cocoapods/v/SDDatabase.svg?style=flat)](https://cocoapods.org/pods/SDDatabase)
 [![License](https://img.shields.io/cocoapods/l/SDDatabase.svg?style=flat)](https://cocoapods.org/pods/SDDatabase)
 [![Platform](https://img.shields.io/cocoapods/p/SDDatabase.svg?style=flat)](https://cocoapods.org/pods/SDDatabase)
