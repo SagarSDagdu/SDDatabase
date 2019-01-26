@@ -58,14 +58,14 @@ let studentSchema = " ("
 + ") "
 let creationSuccess = db.create(table: "student", withSchema: studentSchema)
 ````
-#### Inserting a record in the table (`insert`)
+### Inserting a record in the table (`insert`)
 ````swift
 var studentValues = [String:Any]()
 studentValues["roll_number"] = 1
 studentValues["name"] = "Sagar"
 let insertionSuccess = db.insert(intoTable: "student", values: studentValues)
 ````
-#### Selecting records from the table (`select`)
+### Selecting records from the table (`select`)
 ````swift
 guard let records = db.select(fromTable: "student", columns: ["roll_number", "name"], whereClause: "name = ?", whereValues: ["Sagar"]) else {
   return
