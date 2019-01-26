@@ -1,0 +1,6 @@
+framework module SDDatabase {
+  umbrella header "SDDatabase-umbrella.h"
+
+  export *
+  module * { export * }
+}

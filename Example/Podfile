@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'SDDatabase_Example' do
+  pod 'FMDB/SQLCipher'
   pod 'SDDatabase', :path => '../'
 
   target 'SDDatabase_Tests' do

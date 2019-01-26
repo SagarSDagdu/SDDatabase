@@ -1,0 +1,27 @@
+PODS:
+  - FMDB/SQLCipher (2.7.5):
+    - SQLCipher
+  - SDDatabase (0.1.0):
+    - FMDB/SQLCipher
+  - SQLCipher (4.0.0):
+    - SQLCipher/standard (= 4.0.0)
+  - SQLCipher/common (4.0.0)
+  - SQLCipher/standard (4.0.0):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - FMDB/SQLCipher
+  - SDDatabase (from `../`)
+
+EXTERNAL SOURCES:
+  SDDatabase:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  SDDatabase: c907f631990d26913a78e7763f73ef30b6f21f22
+  SQLCipher: 37c820e1ada7f2c2782ec6bfb6be9a9660209ff5
+
+PODFILE CHECKSUM: d485331dfea86ef805f642e8ab1bcf2b9e0fbfe3
+
+COCOAPODS: 1.4.0

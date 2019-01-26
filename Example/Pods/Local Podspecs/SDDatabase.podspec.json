@@ -1,0 +1,27 @@
+{
+  "name": "SDDatabase",
+  "version": "0.1.0",
+  "summary": "A short description of SDDatabase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sagar Dagdu/SDDatabase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sagar Dagdu": "shags032@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Sagar Dagdu/SDDatabase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SDDatabase/Classes/**/*",
+  "dependencies": {
+    "FMDB/SQLCipher": [
+
+    ]
+  }
+}
