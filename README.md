@@ -33,8 +33,8 @@ pod 'SDDatabase'
 let documentDirectoryPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
 let databasePath = documentDirectoryPath.appending("/testdb.sqlite")
 guard let db = Database(withPath: databasePath) else {
-print("DB could not be opened")
-return
+  print("DB could not be opened")
+  return
 }
 ````
 If the database file is encrypted, you can use the init with key method
@@ -65,7 +65,7 @@ let insertionSuccess = db.insert(intoTable: "student", values: studentValues)
 #### Selecting records from the table (`select`)
 ````swift
 guard let records = db.select(fromTable: "student", columns: ["roll_number", "name"], whereClause: "name = ?", whereValues: ["Sagar"]) else {
-return
+  return
 }
 
 for record in records {
